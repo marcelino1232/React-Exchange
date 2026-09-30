@@ -1,0 +1,29 @@
+body{
+    position: relative;
+}
+
+.position{
+    position: absolute; 
+    top:0;   
+    left: 0;
+    width: 100%;
+    margin: 0rem auto;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-img{
+    background-image:url('../src/assets/images/dollars.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-width{
+    width: min(600px,96%);
+}
+
